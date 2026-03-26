@@ -78,7 +78,7 @@ sbatch relernn_train_resume.sh
 ``` 
 After each run, you will get a diagnostic plot that looks like `testResults_final_epoch_711.pdf`. 
 
-Finally, after training for 1000 epochs, prediction and bootstrapping. This should be pretty fast.
+Finally, after training for however many epochs you want (e.g. until you see early-stopping as in the example plot), run prediction and bootstrapping. This should be pretty fast. Again, make sure you modify absolute paths and partition name, etc.
 ```bash
 sbatch relernn_predict_bscorrect.sh
 ```
