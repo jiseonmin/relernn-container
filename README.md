@@ -2,6 +2,10 @@
 
 Portable container for running ReLERNN v1.0.0 on HPC clusters with GPU support (hopefully reliably across different clusters; tested on two clusters by J.M.)
 
+## **Update**
+[ReLERNN v2.0.0 is released!]('https://github.com/kr-colab/ReLERNN/releases/tag/v2.0.0') 
+I tried it out on NEU's cluster, following through the the official tutorial, and I am seeing much better GPU usage, consistently above 85% (using 1 Tesla V100, 4 CPUs). Each epoch now only takes 3 ~ 17 seconds. Thanks, Andy :D
+
 ## Quick Test
 
 To verify the container works with GPU support:
